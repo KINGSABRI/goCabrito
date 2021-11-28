@@ -91,6 +91,20 @@ Examples:
   $goCabrito.rb --profile prf.json
 ```
 
+### How you really use it? 
+1. I create directory for each customer
+2. Under the customer's directory, I create a directory for each campaign. This sub directory contains
+  - The profile
+  - The To, CC & BCC lists in CSV format
+  - The message body in HTML format
+4. I configure the profile and prepare my HTML
+3. Execute the campaign profile in `dry` mode first (check the profile file `dry` value)
+```
+ruby goCabrito.rb -P CUSTOMER/3/camp3.json --dry
+```
+4. I remove the `--dry` switch and make sure the `dry` value is `false` in the config file
+5. Send to a test email
+6. Send to the real lists
 
 ## Troublesheooting 
 ### SMTP authentication issues
