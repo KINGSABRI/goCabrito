@@ -17,7 +17,8 @@ Super organized and flexible script for sending phishing campaigns.
 - Supports creating database for sent emails, each email with its unique hash (useful with [getCabrito](https://github.com/KINGSABRI/getCabrito))
 - Supports dry test, to run the script against your profile without sending the email to test your campaign before the launch.
 
-## Why not use goPhish?
+## Qs & As 
+### Why not use goPhish?
 goPhish is a gerat choice too. But I prefer flexibility and simplicity at the same time. I used goPhish various times but at somepoint, I'm either find it overwhelming or inflexible. 
 
 Most of the time, I don't need all these statistics, I just need a flixable way to prepare my phishing campaigns and send them. Each time I use goPhish I've to go and check the documentations about how to add a website, forward specific requests, etc. So I created [goCabrito](https://github.com/KINGSABRI/goCabrito) and [getCabrito](https://github.com/KINGSABRI/getCabrito).
@@ -27,6 +28,9 @@ getCabrito optionally generates unique URL for email tracking.
 - Email Clicking tracking
 
 by generate a hash for each email and append it to the end of the URL or image URL and store these information along with other things that are useful for getCabrito to import and servering. **This feature is the only thing connects goCabrito with getCabrito script, so no panic!.**
+
+### What's with the "Cabrito" thing?
+It's just a name of once of my favorit resturants and the name was chosen by one of my team.
 
 
 ## Prerequisites 
