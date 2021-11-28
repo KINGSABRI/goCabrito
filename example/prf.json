@@ -1,0 +1,19 @@
+{
+    "server":  "smtp.office365.com:587",
+    "user":    "sender@example.com",
+    "pass":    "c00lPassword",
+    "no_ssl":  false, 
+    "from":    "sender@example.com",
+    "to":      "/home/USER/Code/goCabrito/example/to.csv",
+    "copy":    "/home/USER/Code/goCabrito/example/cc.csv",
+    "bcopy":   "/home/USER/Code/goCabrito/example/bcc.csv",
+    "subject": "Test Profile",
+    "body":    "/home/USER/goCabrito/example/msg.html",
+    "attachments": [
+      "/home/USER/goCabrito/example/attachment1.png",
+      "/home/USER/goCabrito/example/attachment2.xlsx"
+    ],
+    "groups":  "0",
+    "delay":   "0",
+    "dry":     true
+  }
